@@ -21,7 +21,7 @@
 -(IBAction)subtractOne:(id)sender;
 -(IBAction)reset:(id)sender;
 -(IBAction)multiplySwitch:(id)sender;
--(IBAction)hiddenButton:(id)sender;
+
 
 
 

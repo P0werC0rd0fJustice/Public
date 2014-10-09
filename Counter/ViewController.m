@@ -72,13 +72,7 @@
         [AddOne setTitle:@"Add One" forState:normal];
     }
 }
--(IBAction)hiddenButton:(id)sender:{
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"DickButt" ofType:@"png"];
-    NSLog(@"path: %@", path);
-    UIImage* DickButt = [[UIImage alloc] initWithContentsOfFile:path];
-    UIImageView *imageView = [[UIImage alloc] initWithImage: DickButt];
-    [self.view addSubview:DickButt];
-}
+
 
 
 
